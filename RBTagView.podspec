@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-			A Tag View
+			Can simply to show tag and handle action
                    DESC
 
   s.homepage     = "https://github.com/shaotianchi/RBTagView"
@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+  s.platform     = :ios, "7.0"
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/shaotianchi/RBTagView.git", :tag => "1.0.0" }
 
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Source Code ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "RBTagView/*.{h,m}"
+  s.source_files  = "RBTagViewDemo/RBTagView/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
